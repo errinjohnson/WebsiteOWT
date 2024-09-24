@@ -1,0 +1,11 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore package-lock.json and yarn.lock
+package-lock.json
+yarn.lock
+
+# Optional: Ignore any JSON files in the project
+*.json
+# Ignore server file, need to add server configs to safe and protected file
+server.js
