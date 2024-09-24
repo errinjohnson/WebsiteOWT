@@ -1,0 +1,115 @@
+body {
+  background-color: #f4f7fa; /* Lighter background for better contrast */
+  font-family: "Arial", sans-serif; /* Set a more modern font */
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for card depth */
+  border-radius: 8px; /* Round card corners */
+  overflow: hidden; /* Ensure elements don’t overflow the card */
+  margin-bottom: 30px; /* Space between cards */
+}
+
+.card-header {
+  font-size: 1.25rem; /* Increase font size for card headers */
+  font-weight: bold; /* Make header text bold */
+  padding: 10px 15px; /* Add padding to the header */
+  border-bottom: 1px solid #e2e6ea; /* Add border to header */
+}
+
+.card-body {
+  padding: 20px; /* Add padding inside cards */
+}
+
+.form-group {
+  margin-bottom: 1.5rem; /* Increase space between form elements */
+}
+
+.form-control {
+  border-radius: 5px; /* Round input corners */
+  border: 1px solid #ced4da; /* Define a light border for inputs */
+  box-shadow: none; /* Remove the default input shadow */
+  transition: border-color 0.3s ease-in-out; /* Smooth transition for input borders */
+}
+
+.form-control:focus {
+  border-color: #80bdff; /* Blue border on focus */
+  box-shadow: 0 0 8px rgba(128, 189, 255, 0.5); /* Subtle shadow on focus */
+}
+
+.btn {
+  border-radius: 5px; /* Rounded button corners */
+  transition: background-color 0.3s ease-in-out; /* Smooth background color transition */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary blue */
+  border-color: #007bff; /* Matching border color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3; /* Matching border color */
+}
+
+.btn-warning {
+  background-color: #ffc107; /* Bootstrap warning yellow */
+  border-color: #ffc107; /* Matching border color */
+}
+
+.btn-warning:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+  border-color: #e0a800; /* Matching border color */
+}
+
+.table {
+  margin-bottom: 0; /* Remove default margin below table */
+}
+
+.table th,
+.table td {
+  vertical-align: middle; /* Center align text vertically */
+  white-space: nowrap; /* Prevent wrapping */
+  text-align: center; /* Center text */
+}
+
+.table th {
+  background-color: #007bff; /* Primary blue for headers */
+  color: #fff; /* White text color */
+  font-weight: bold; /* Bold header text */
+  border-top: none; /* Remove top border */
+}
+
+.table td {
+  border-top: none; /* Remove top border */
+  border-bottom: 1px solid #dee2e6; /* Add light border between rows */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9; /* Light background for odd rows */
+}
+
+.table-responsive {
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  margin-top: 15px; /* Add space above the table */
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px; /* Reduce space between cards on smaller screens */
+  }
+
+  .form-group {
+    margin-bottom: 1rem; /* Reduce space between form elements on smaller screens */
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.9rem; /* Smaller font size for table text */
+    padding: 10px; /* Reduce padding for table cells */
+  }
+}
