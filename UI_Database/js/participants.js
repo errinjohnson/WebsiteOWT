@@ -149,3 +149,4 @@ function refreshParticipantList() {
     document.getElementById('participantTableBody').innerHTML = ''; // Clear existing rows
     fetchParticipants(); // Fetch and display updated participant list
 }
+
