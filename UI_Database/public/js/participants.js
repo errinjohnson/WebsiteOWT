@@ -26,7 +26,7 @@ document.getElementById('participantForm').addEventListener('submit', function (
 
 // Function to add a new participant using the API
 function addParticipant(participant) {
-    fetch('https://walrus-app-5bhtn.ondigitalocean.app/api/participants', {
+    fetch('68.183.56.240.app/api/participants', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -73,7 +73,7 @@ function addParticipantToTable(participant) {
 
 // Fetch all participants from the API and display them
 function fetchParticipants() {
-    fetch('https://walrus-app-5bhtn.ondigitalocean.app/api/participants')
+    fetch('68.183.56.240/api/participants')
  .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
@@ -119,7 +119,7 @@ function loadParticipantForEdit(participant) {
 
 // Function to update a participant using the API
 function updateParticipant(participantId, participant) {
-    fetch(`https://walrus-app-5bhtn.ondigitalocean.app/api/participants/${participantId}`, {
+    fetch(`68.183.56.240/api/participants/${participantId}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
