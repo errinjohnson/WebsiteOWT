@@ -7,5 +7,3 @@ yarn.lock
 
 # Optional: Ignore any JSON files in the project
 *.json
-#server js until I can find suitable safe way to use it
-server.js
