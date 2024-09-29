@@ -10,12 +10,8 @@ const dbUser = process.env.DB_USER;
 const dbPassword = process.env.DB_PASSWORD;
 const dbName = process.env.DB_NAME;
 
-// app.use(cors()); // Enable CORS for all origins
-// Configure CORS to allow requests from your specific front-end
-app.use(cors({
-    origin: 'https://walrus-app-5bhtn.ondigitalocean.app', // Update with your front-end URL
-    credentials: true // Allows cookies to be sent
-}));
+app.use(cors()); // Enable CORS for all origins
+
 app.use(express.json()); // Parse JSON bodies
 
 // Serve static files from the 'public' directory
