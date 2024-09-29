@@ -74,7 +74,12 @@ function addParticipantToTable(participant) {
 // Fetch all participants from the API and display them
 function fetchParticipants() {
     fetch('authbillprov2demo.cb6ikwo0co64.us-east-1.rds.amazonaws.com/api/participants')
-        .then(response => response.json())
+ .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
         .then(participants => {
             participants.forEach(participant => {
                 addParticipantToTable(participant);
