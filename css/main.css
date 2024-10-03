@@ -1,0 +1,11 @@
+#about {
+    background: linear-gradient(
+      135deg,
+      #0077b6,
+      #90e0ef
+    ); /* Blue gradient */
+    color: #fff; /* White text */
+    padding: 50px 0;
+  }
+
+ 

@@ -11,25 +11,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <style>
-      #about {
-        background: linear-gradient(
-          135deg,
-          #0077b6,
-          #90e0ef
-        ); /* Blue gradient */
-        color: #fff; /* White text */
-        padding: 50px 0;
-      }
-
-      h2,
-      h3,
-      p,
-      ul {
-        color: #fff; /* Ensure all text is white */
-      }
-    </style>
-  </head>
+    <link href="css/main.css" rel="stylesheet" />
+    </head>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <img
@@ -134,7 +117,7 @@
                   flexibility of cloud technology.
                 </p>
                 <a
-                  href="/UI_Database/public/participants.html"
+                  href="#"
                   class="btn btn-lg btn-primary mx-2"
                   target="_blank"
                   >Explore AuthBill Pro</a
@@ -146,16 +129,10 @@
           <!-- Project 2 -->
           <div class="col-md-4">
             <div class="card">
-              <img
-                src="img/oceanwavestechLogo.jpg"
-                alt="Ocean Waves Tech Logo"
-                style="width: 150px; margin-bottom: 20px; border-radius: 15px;"
-              />
-
-              <div class="card-body">
-                <h5 class="card-title">Ocean Waves Tech Website</h5>
+               <div class="card-body">
+                <h5 class="card-title">Websites</h5>
                 <p class="card-text text-dark">
-                  Our professional website focuses on static websites hosted
+                  Professional Static Websites that is hosted
                   through GitHub Pages. This solution is simple to implement,
                   reliable, and comes at zero cost, making it ideal for
                   businesses looking for an affordable, high-performance web
@@ -189,140 +166,33 @@
                   web presence.
                 </p>
                 <a
-                  href="https://errinjohnson.github.io/WebsiteOWT/"
+                  href="websites.html"
                   class="btn btn-primary"
                 >
-                  View Website
+                  View Websites
                 </a>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    We Can Also Utilize AWS (Amazon Web Services)
+                  </h5>
+                  <p class="card-text text-dark">
+                    Amazon S3 (Simple Storage Service) offers a dependable and scalable solution for hosting static 
+                    images, all at an affordable price.
+                    <a
+                    href="https://aws.amazon.com/s3/"
+                    class="btn btn-primary"
+                    target="_blank"
+                  >
+                    Learn More
+                  </a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <!-- Project 3 -->
-          <!-- <div class="col-md-4">
-            <div class="card">
-              <img
-                src="path-to-image3.jpg"
-                class="card-img-top"
-                alt="Expenditures Database"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Expenditures Database</h5>
-                <p class="card-text text-dark">
-                  MS Access database designed to track expenditures, streamline
-                  financial reporting, and integrate real-time data validation
-                  and reporting.
-                </p>
-                <a href="#" class="btn btn-primary">View Details</a>
-              </div>
-            </div>
-          </div> -->
-        </div>
-        <div class="row mt-4">
-          <!-- Project 4 -->
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">
-                  AWS Static Website Hosting with S3 and Domain Services
-                </h5>
-                <p class="card-text text-dark">
-                  Amazon S3 (Simple Storage Service) provides a reliable and
-                  scalable platform for hosting
-                  <strong>static websites</strong>. S3 allows you to store and
-                  serve static content such as HTML, CSS, JavaScript, and images
-                  at low cost, with the following benefits:
-                </p>
-                <ul class="text-dark">
-                  <li>
-                    <strong>Scalability</strong>: S3 automatically scales to
-                    handle any level of traffic, whether your site has minimal
-                    or significant spikes.
-                  </li>
-                  <li>
-                    <strong>Global Availability</strong>: Using AWS's global
-                    infrastructure, S3 ensures fast load times through its
-                    Content Delivery Network (CDN) integration with CloudFront.
-                  </li>
-                  <li>
-                    <strong>Cost-Effective</strong>: Pay only for storage and
-                    data transfer, with no upfront costs.
-                  </li>
-                </ul>
-                <p class="card-text text-dark">
-                  <strong>Key Features</strong>:
-                </p>
-                <ul class="text-dark">
-                  <li>
-                    <strong>Custom Domain</strong>: With Amazon Route 53, you
-                    can easily set up a custom domain for your website and route
-                    traffic to your S3-hosted site.
-                  </li>
-                  <li>
-                    <strong>SSL Certificates</strong>: AWS Certificate Manager
-                    provides free SSL certificates, securing your website with
-                    HTTPS.
-                  </li>
-                  <li>
-                    <strong>High Availability</strong>: S3 ensures redundancy by
-                    storing data across multiple Availability Zones, minimizing
-                    downtime.
-                  </li>
-                </ul>
-                <p class="card-text text-dark">
-                  Hosting a static website using S3 and Route 53 makes it easy
-                  to build and manage a high-performance, globally accessible
-                  website with custom domain support, enhanced security, and
-                  automatic scaling—all at a low cost.
-                </p>
-                <a
-                  href="https://aws.amazon.com/s3/"
-                  class="btn btn-primary"
-                  target="_blank"
-                >
-                  Learn More
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 5 -->
-          <!-- <div class="col-md-4">
-            <div class="card">
-              <img
-                src="path-to-image5.jpg"
-                class="card-img-top"
-                alt="Invoice Management System"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Invoice Management System</h5>
-                <p class="card-text">
-                  A custom invoicing system integrated with MS Access and MySQL,
-                  including features such as automated calculations and error
-                  handling.
-                </p>
-                <a href="#" class="btn btn-primary">View Details</a>
-              </div>
-            </div>
-          </div> -->
-          <!-- Project 6 -->
-          <!-- <div class="col-md-4">
-            <div class="card">
-              <img
-                src="path-to-image6.jpg"
-                class="card-img-top"
-                alt="Database Migration Project"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Database Migration Project</h5>
-                <p class="card-text">
-                  Successfully migrated complex MS Access databases to MySQL on
-                  AWS RDS, ensuring minimal downtime and data integrity.
-                </p>
-                <a href="#" class="btn btn-primary">View Details</a>
-              </div>
-            </div>
-          </div> -->
-        </div>
+         </div>
       </div>
     </section>
   </body>
